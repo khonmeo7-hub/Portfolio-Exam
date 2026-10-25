@@ -3,6 +3,21 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif ;
 }
+header {
+    background-color: #770505;
+    border-radius: 0 0 15px 15px;
+}
+header h1 {
+    text-align: center;
+}
+footer {
+    background-color: #770505;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -11,7 +26,7 @@ a:hover {
     color: #7307ed;
 }
 .left_tab {
-    background: linear-gradient(45deg, #770505,  #ff0000);
+    background: linear-gradient(to right, #770505,  #ff0000);
     border-radius: 15px;
     transition: transform 0.3s ease;
 }
@@ -47,7 +62,7 @@ hr {
 
 
 .right_tab {
-    background: linear-gradient(135deg, #ff0000, #770505);
+    background: linear-gradient(to right, #ff0000, #770505);
     border-radius: 15px;
     transition: transform 0.3s ease;
 }
@@ -57,3 +72,19 @@ hr {
 .edu1 {
     text-align: right;
 }
+
+.prdct {
+    background: linear-gradient(to bottom, #ff0000, #770505);
+    border-radius: 15px;
+    width: 1230px;
+    transition: transform 0.3s ease;
+}
+.prdct:hover {
+    transform: translateY(-10px)
+}
+.video {
+    width: 800px;
+    display: flex;
+    margin: 0 auto;    
+}
+
